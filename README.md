@@ -5,3 +5,9 @@ Small and marginal farmers often cannot afford to own essential machinery like t
 
 Project Description
 KhetLink is a web platform that connects farmers who need short-term access to machinery with nearby owners who have idle equipment. Farmers can search by location and machine type, view a verified owner profile with a trust/reliability score, check real time availability, and send a booking request all before the equipment is even needed. Owners get a simple dashboard to list their machinery, set availability, and manage incoming requests, turning idle assets into extra income. The platform replaces informal, trust-dependent word-of-mouth arrangements with a transparent, structured booking system.
+
+Technology Stack
+React + Tailwind CSS (frontend), Flask or Node.js/Express (backend), MongoDB or MySQL (database), deployed via Vercel (frontend) + Render/Railway (backend)
+
+AI Tools Used
+List whatever you and your teammate actually used  e.g. "ChatGPT/Claude for planning and problem framing, GitHub Copilot for code assistance." Be specific and accurate; undisclosed AI use counts against you in evaluation, not for it.
