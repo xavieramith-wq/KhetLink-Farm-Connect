@@ -1,13 +1,25 @@
 # Title : KhetLink – Smart Farm Machinery Discovery & Rental Platform
 
-Problem Statement
-Small and marginal farmers often cannot afford to own essential machinery like tractors, tillers, or harvesters, yet time-sensitive operations such as sowing and harvesting require access to this equipment on short notice. There is no structured way to discover nearby available machinery, verify the owner's reliability, or book it in advance  forcing farmers to rely on informal word-of-mouth networks, pay inflated rates, or delay critical farm work. Meanwhile, a significant amount of machinery in the same region sits idle. This is fundamentally a discovery and trust problem, not a supply shortage.
+Problem Statement:
+Small and marginal farmers frequently cannot afford to own essential machinery like tillers, tractors, or harvesters, and have no structured way to discover, trust, or rent equipment that already sits idle nearby. This delays time-sensitive operations (ploughing, harvesting) and forces farmers into inflated informal rental arrangements  a problem of discovery and trust, not equipment scarcity.
 
-Project Description
-KhetLink is a web platform that connects farmers who need short-term access to machinery with nearby owners who have idle equipment. Farmers can search by location and machine type, view a verified owner profile with a trust/reliability score, check real time availability, and send a booking request all before the equipment is even needed. Owners get a simple dashboard to list their machinery, set availability, and manage incoming requests, turning idle assets into extra income. The platform replaces informal, trust-dependent word-of-mouth arrangements with a transparent, structured booking system.
+Project Description:
+KhetLink is a web platform connecting small farmers who need short-term access to farm machinery with nearby owners who have idle equipment. Farmers can search for available machinery by location and date, view owner ratings before booking, and see transparent pricing upfront. Owners can list their equipment with an availability calendar and earn income from otherwise unused assets. The platform focuses on trust (ratings/history) and speed (fast, structured discovery)  the two things informal word-of-mouth rental currently fails to provide.
 
-Technology Stack
-React + Tailwind CSS (frontend), Flask or Node.js/Express (backend), MongoDB or MySQL (database), deployed via Vercel (frontend) + Render/Railway (backend)
+Key Features:
 
-AI Tools Used
-List whatever you and your teammate actually used  e.g. "ChatGPT/Claude for planning and problem framing, GitHub Copilot for code assistance." Be specific and accurate; undisclosed AI use counts against you in evaluation, not for it.
+Location-based search for available machinery within a set radius
+Booking system with date-specific availability calendars
+Owner rating & rental history shown before booking, to build trust
+Transparent upfront pricing (no hidden charges)
+Post-rental rating system so future farmers can make informed decisions
+Pickup reminder notifications for booked rentals
+
+Technology Stack:
+Frontend: React, Tailwind CSS
+Backend: Flask (Python), Node.js/Express for real-time features if needed
+Database: MongoDB (flexible schema for listings/bookings) or MySQL if you prefer relational
+Other: Socket.IO for booking-status updates, deployed on Vercel
+
+AI Tools Used:
+List honestly whatever you actually use — e.g., "ChatGPT/Claude used for boilerplate code generation and documentation drafting; all logic and integration written/reviewed by the team." Don't skip disclosure  undisclosed AI use is explicitly a rule violation.
