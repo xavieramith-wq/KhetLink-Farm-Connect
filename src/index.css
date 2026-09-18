@@ -93,3 +93,45 @@ button {
     padding: 70px 9%;
   }
 }
+
+.contact {
+  text-align: center;
+  padding: 55px 9%;
+  background: #ffffff;
+}
+
+.contact h2 {
+  margin: 0 0 8px;
+  color: #2d6a3f;
+  font-size: 2rem;
+}
+
+.contact > p {
+  color: #64748b;
+  margin-bottom: 30px;
+}
+
+.contact-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  background: #f5f7f1;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(24, 53, 37, 0.08);
+  padding: 24px;
+  min-width: 220px;
+}
+
+.contact-card h3 {
+  margin: 0 0 6px;
+  color: #2d6a3f;
+}
+
+.contact-card p {
+  margin: 0;
+  color: #183525;
+}

@@ -1,3 +1,4 @@
+import Contact from "./Contact";
 function App() {
   return (
     <main className="app">
@@ -30,6 +31,7 @@ function App() {
           <p>Connect with farmers and agricultural experts.</p>
         </article>
       </section>
+      <Contact />
     </main>
   );
 }
