@@ -10,7 +10,7 @@ KhetLink aims to solve this problem by providing a digital platform where farmer
 
 ## Project Description
 
-KhetLink provides a centralized platform for agricultural machinery rental.
+KhetLink provides a centralized platform for agricultural machinery rental. 
 
 The platform supports two main types of users:
 
